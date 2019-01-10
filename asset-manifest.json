@@ -1,7 +1,7 @@
 {
   "main.css": "/open-weather/static/css/main.8afe7bfc.chunk.css",
-  "main.js": "/open-weather/static/js/main.4ba90fe6.chunk.js",
-  "main.js.map": "/open-weather/static/js/main.4ba90fe6.chunk.js.map",
+  "main.js": "/open-weather/static/js/main.b094e90f.chunk.js",
+  "main.js.map": "/open-weather/static/js/main.b094e90f.chunk.js.map",
   "static/css/1.b8a760f9.chunk.css": "/open-weather/static/css/1.b8a760f9.chunk.css",
   "static/js/1.62141f7f.chunk.js": "/open-weather/static/js/1.62141f7f.chunk.js",
   "static/js/1.62141f7f.chunk.js.map": "/open-weather/static/js/1.62141f7f.chunk.js.map",
@@ -10,6 +10,6 @@
   "static/css/1.b8a760f9.chunk.css.map": "/open-weather/static/css/1.b8a760f9.chunk.css.map",
   "static/css/main.8afe7bfc.chunk.css.map": "/open-weather/static/css/main.8afe7bfc.chunk.css.map",
   "index.html": "/open-weather/index.html",
-  "precache-manifest.f08c4481296585ced23e93c3c0aae449.js": "/open-weather/precache-manifest.f08c4481296585ced23e93c3c0aae449.js",
+  "precache-manifest.fc0f1b84ee4c5612d8ccbc10bc3962aa.js": "/open-weather/precache-manifest.fc0f1b84ee4c5612d8ccbc10bc3962aa.js",
   "service-worker.js": "/open-weather/service-worker.js"
 }
