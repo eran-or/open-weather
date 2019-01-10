@@ -1,1 +1,1 @@
-export {fetchWeather, updateWeather} from './weather'
+export {fetchWeather} from './weather'
