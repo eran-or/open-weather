@@ -1,1 +1,1 @@
-export {fetchMovies, updateMovies} from './movies'
+export {fetchWeather, updateWeather} from './weather'
