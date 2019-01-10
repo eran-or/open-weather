@@ -32,6 +32,6 @@ export const fetchWeather = (city, country) => {
   }
 }
 
-export const updateWeather = (city) => {
-  fetchWeather(city)
+export const updateWeather = (city, country) => {
+  fetchWeather(city, country)
 }

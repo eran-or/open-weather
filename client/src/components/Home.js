@@ -15,9 +15,14 @@ export class Home extends Component {
   }
 
   fetchWeather = () => {
+    clearInterval(this.interval)
     let [city, country] = this.state.location.split(',')
     this.props.fetchWeather(city, country)
+    this.interval = setInterval(()=>{
+      this.props.fetchWeather(city, country)
+    },15000)
   }
+
   render() {
     const { weather } = this.props
     const { main = {} } = weather
