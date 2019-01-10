@@ -31,7 +31,3 @@ export const fetchWeather = (city, country) => {
     .catch(e => console.log(e))
   }
 }
-
-export const updateWeather = (city, country) => {
-  fetchWeather(city, country)
-}
