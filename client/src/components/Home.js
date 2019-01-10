@@ -3,6 +3,7 @@ import { connect } from 'react-redux'
 import { fetchWeather } from '../redux/actions'
 import LineChart from './LineChart'
 import Form from './Form'
+import Gauge from 'react-svg-gauge'
 
 export class Home extends Component {
   state = {
@@ -46,7 +47,7 @@ export class Home extends Component {
       </div>
       <div className="row justify-content-around">
           <LineChart data={data} width={width} height={height} />
-        <img style={{width:165,height:165}} src="https://via.placeholder.com/165.png?text=Gauge" alt="" />
+          <Gauge min="-2" max="80" value={main.temp || ''} width={165} height={165} label="Celsius Temperature" />
       </div>
     </div>
   }
